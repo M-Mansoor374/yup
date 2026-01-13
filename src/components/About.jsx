@@ -109,15 +109,15 @@ const About = () => {
 
                             <div className="profile-stats">
                                 <div className="stat-item">
-                                    <span className="stat-value">3+</span>
+                                    <span className="stat-value">1+</span>
                                     <span className="stat-label">Years Experience</span>
                                 </div>
                                 <div className="stat-item">
-                                    <span className="stat-value">50+</span>
+                                    <span className="stat-value">30+</span>
                                     <span className="stat-label">Projects Completed</span>
                                 </div>
                                 <div className="stat-item">
-                                    <span className="stat-value">30+</span>
+                                    <span className="stat-value">10+</span>
                                     <span className="stat-label">Happy Clients</span>
                                 </div>
                             </div>
