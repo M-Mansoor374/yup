@@ -399,6 +399,11 @@
         font-size: 2.5rem;
     }
 
+    .section-description {
+        font-size: 1rem;
+        padding: 0 10px;
+    }
+
     .projects-header {
         margin-bottom: 50px;
     }
@@ -419,18 +424,100 @@
     .project-title {
         font-size: 1.3rem;
     }
+
+    .project-link {
+        width: 48px;
+        height: 48px;
+        font-size: 1.1rem;
+    }
+
+    .view-more-btn {
+        padding: 14px 32px;
+        font-size: 0.95rem;
+    }
 }
 
 @media screen and (max-width: 480px) {
+    .projects {
+        padding: 60px 0;
+    }
+
+    .projects-container {
+        padding: 0 16px;
+    }
+
     .section-title {
-        font-size: 2rem;
+        font-size: 1.8rem;
+    }
+
+    .section-title::after {
+        width: 60px;
+        height: 3px;
     }
 
     .section-description {
-        font-size: 1rem;
+        font-size: 0.9rem;
+        line-height: 1.6;
+    }
+
+    .section-label {
+        font-size: 0.8rem;
+        padding: 6px 16px;
+    }
+
+    .projects-header {
+        margin-bottom: 40px;
+    }
+
+    .projects-grid {
+        gap: 20px;
+    }
+
+    .project-image-container {
+        height: 180px;
     }
 
     .project-content {
         padding: 20px;
+    }
+
+    .featured-badge {
+        font-size: 0.7rem;
+        padding: 3px 10px;
+    }
+
+    .project-title {
+        font-size: 1.2rem;
+        margin-bottom: 12px;
+    }
+
+    .project-description {
+        font-size: 0.9rem;
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+
+    .project-tech {
+        gap: 8px;
+    }
+
+    .tech-item {
+        padding: 5px 12px;
+        font-size: 0.8rem;
+    }
+
+    .project-link {
+        width: 44px;
+        height: 44px;
+        font-size: 1rem;
+    }
+
+    .view-more-btn {
+        padding: 12px 28px;
+        font-size: 0.9rem;
+    }
+
+    .view-more {
+        margin-top: 40px;
     }
 }

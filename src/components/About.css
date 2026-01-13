@@ -432,8 +432,24 @@
         font-size: 2.5rem;
     }
 
+    .section-description {
+        font-size: 1rem;
+        padding: 0 10px;
+    }
+
     .about-header {
         margin-bottom: 50px;
+    }
+
+    .about-content {
+        margin-bottom: 60px;
+    }
+
+    .profile-card,
+    .bio-card,
+    .skill-card,
+    .value-card {
+        padding: 25px;
     }
 
     .profile-image {
@@ -445,13 +461,26 @@
         font-size: 2.5rem;
     }
 
+    .profile-name {
+        font-size: 1.6rem;
+    }
+
+    .profile-role {
+        font-size: 1rem;
+    }
+
     .profile-stats {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(3, 1fr);
         gap: 15px;
+    }
+
+    .stat-value {
+        font-size: 1.5rem;
     }
 
     .subsection-title {
         font-size: 2rem;
+        margin-bottom: 40px;
     }
 
     .skills-grid,
@@ -459,22 +488,146 @@
         grid-template-columns: 1fr;
         gap: 20px;
     }
+
+    .skill-category {
+        font-size: 1.2rem;
+    }
+
+    .value-icon {
+        width: 60px;
+        height: 60px;
+        font-size: 1.8rem;
+    }
 }
 
 @media screen and (max-width: 480px) {
+    .about {
+        padding: 60px 0;
+    }
+
+    .about-container {
+        padding: 0 16px;
+    }
+
     .section-title {
+        font-size: 1.8rem;
+    }
+
+    .section-title::after {
+        width: 60px;
+        height: 3px;
+    }
+
+    .section-label {
+        font-size: 0.8rem;
+        padding: 6px 16px;
+    }
+
+    .about-header {
+        margin-bottom: 40px;
+    }
+
+    .about-content {
+        margin-bottom: 50px;
+    }
+
+    .profile-card,
+    .bio-card,
+    .skill-card,
+    .value-card {
+        padding: 20px;
+        border-radius: 16px;
+    }
+
+    .profile-image {
+        width: 130px;
+        height: 130px;
+    }
+
+    .image-placeholder {
         font-size: 2rem;
     }
 
+    .profile-name {
+        font-size: 1.4rem;
+    }
+
+    .profile-role {
+        font-size: 0.95rem;
+    }
+
+    .profile-location {
+        font-size: 0.85rem;
+    }
+
+    .status-indicator {
+        font-size: 0.8rem;
+        padding: 6px 12px;
+    }
+
+    .profile-stats {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 12px;
+        padding-top: 20px;
+    }
+
+    .stat-value {
+        font-size: 1.3rem;
+    }
+
+    .stat-label {
+        font-size: 0.7rem;
+    }
+
     .subsection-title {
-        font-size: 1.7rem;
+        font-size: 1.6rem;
+        margin-bottom: 35px;
+    }
+
+    .subsection-title::after {
+        width: 60px;
+        height: 2px;
     }
 
     .bio-title {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
+        margin-bottom: 15px;
     }
 
     .bio-content p {
-        font-size: 1rem;
+        font-size: 0.95rem;
+        line-height: 1.7;
+    }
+
+    .skill-category {
+        font-size: 1.1rem;
+        margin-bottom: 15px;
+    }
+
+    .skill-tag {
+        padding: 6px 14px;
+        font-size: 0.85rem;
+    }
+
+    .value-icon {
+        width: 55px;
+        height: 55px;
+        font-size: 1.6rem;
+        margin-bottom: 15px;
+    }
+
+    .value-title {
+        font-size: 1.1rem;
+        margin-bottom: 10px;
+    }
+
+    .value-description {
+        font-size: 0.9rem;
+        line-height: 1.6;
+    }
+
+    .skills-section,
+    .values-section {
+        margin-bottom: 50px;
     }
 }

@@ -219,3 +219,38 @@
     padding: 0 20px;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .navbar {
+    height: 80px;
+  }
+
+  .navbar.scrolled {
+    height: 70px;
+  }
+
+  .navbar-container {
+    padding: 0 16px;
+  }
+
+  .navbar-logo {
+    font-size: 1.2rem;
+  }
+
+  .logo-icon {
+    font-size: 1.5rem;
+  }
+
+  .mobile-icon {
+    font-size: 1.5rem;
+  }
+
+  .mobile-menu {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .mobile-nav-links a {
+    font-size: 1.1rem;
+  }
+}

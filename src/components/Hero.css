@@ -359,6 +359,11 @@
         padding-top: 80px;
     }
 
+    .hero-content {
+        padding: 0 20px;
+        gap: 30px;
+    }
+
     .hero-title {
         font-size: 2rem;
     }
@@ -377,5 +382,84 @@
 
     .code-snippet {
         font-size: 0.9rem;
+    }
+
+    .social-icon {
+        width: 45px;
+        height: 45px;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero {
+        padding-top: 70px;
+        min-height: 100vh;
+    }
+
+    .hero-content {
+        padding: 0 16px;
+        gap: 25px;
+    }
+
+    .hero-title {
+        font-size: 1.6rem;
+        margin-bottom: 15px;
+    }
+
+    .hero-subtitle {
+        font-size: 1.2rem;
+        letter-spacing: 1px;
+    }
+
+    .hero-subtitle-wrapper {
+        margin-bottom: 20px;
+    }
+
+    .hero-description {
+        font-size: 0.95rem;
+        margin-bottom: 30px;
+        line-height: 1.6;
+    }
+
+    .hero-cta {
+        flex-direction: column;
+        gap: 12px;
+        margin-bottom: 30px;
+    }
+
+    .cta-primary,
+    .cta-secondary {
+        width: 100%;
+        padding: 12px 24px;
+        font-size: 0.95rem;
+    }
+
+    .social-links {
+        gap: 15px;
+    }
+
+    .social-icon {
+        width: 42px;
+        height: 42px;
+        font-size: 1.1rem;
+    }
+
+    .floating-card {
+        padding: 20px;
+        max-width: 100%;
+    }
+
+    .code-snippet {
+        font-size: 0.8rem;
+        line-height: 1.6;
+    }
+
+    .scroll-indicator {
+        bottom: 20px;
+    }
+
+    .scroll-line {
+        height: 40px;
     }
 }
